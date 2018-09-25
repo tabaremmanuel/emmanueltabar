@@ -1,0 +1,208 @@
+/*
+Theme Name: webjabs
+*/
+
+/*Bootstra and WP overrides*/
+.img-responsive{display:inline-block;}
+textarea,
+input[type="tel"],
+input[type="email"],
+input[type="text"]{
+	display:block;
+	width:100%;
+	padding:0.8em;
+	border:1px solid #ccc;
+}
+
+/*MAIN STYLES*/
+a:focus,a:active,a:hover,a:visited{color:#3c8647;}
+a{color:#51ae5e;}
+body{font-family: 'Lato', sans-serif;font-size:14px;color:#5e5e5e;}
+*{transition: all 0.2s ease;}
+img{display:inline-block;max-width:100%;height:auto;}
+.header-not-home .menu-section ul li:last-child{padding-right:10px;border-right:0;}
+.header-not-home .menu-section ul li{display:inline-block;padding:0 10px;border-right:1px solid #fff;}
+.header-not-home .menu-section ul li a{color:#fff;}
+.header-not-home .menu-section{position:relative;}
+.menu-main-container > ul > li:first-child a{padding-left:0}
+.menu-main-container > ul > li:last-child a{padding-right:0}
+.menu-main-container > ul > li a{
+	color:#fff;
+	text-transform:uppercase;
+	padding:0 12px;
+}
+.menu-main-container > ul > li{
+	float:none;
+	display:inline-block;
+}
+.menu-section ul{
+	padding:0;
+	list-style:none;
+	margin:0;
+}
+.menu-section{
+	z-index:2;
+	background-color:#51ae5e;
+	padding:2em 0;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+.portfolio-section .text-right{padding-top:10px;}
+.portfolio-section{
+	/* background:url(images/portfolio-bg.jpg) center center no-repeat; */
+	background:url(images/bg-2018-08.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.site-details-section .table-j{z-index:2;position:relative;}
+.site-details-section:after{
+	content:"";
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(images/dot-bg.png) repeat;
+	background-attachment:fixed;
+	z-index:1;
+}
+.site-details-section{
+	color:#fff;
+	background:url(images/laptop-x-cup.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.btn-readmore{padding-right:2em;padding-left:2em;}
+.btn-medium{
+	padding-right:25px;
+	padding-left:25px;
+	font-size:18px;
+	color:#fff;
+}
+.portfolio-details h4{font-weight:700;}
+.portfolio-details{background-color:#fff;padding:15px;}
+.btn:focus,
+.btn:active,
+.btn:hover{background-color:#65d275;color:#000;}
+.btn{
+	color:#fff;
+	background-color:#51ae5e;
+	border-radius:0;
+}
+.site-details-section-content h1{font-size:30px;margin:0.2em 0 0.8em;}
+.site-details-section-content h2{font-weight:900;font-size:90px;margin: 0 0 0.3em;}
+.site-details-section-content{margin-bottom:8em;}
+.header-section{position:relative;}
+.table-j{display:table;width:100%;}
+.table-cell-j{display:table-cell;vertical-align:middle;width:100%;}
+.logo-text{margin:0;font-weight:900;font-size:150px;color:rgba(255,255,255,0.3);}
+.logo-text span{font-size:140px;display:inline-block;}
+.header-section, .site-details-section, .site-details-section .table-cell-j{min-height:700px!important;}
+.main-sections{
+	padding:100px 0;
+}
+.portfolio-section h2{color:#fff;}
+.contact-section .head-con,
+.portfolio-section .head-con,
+.about-section .head-con{margin-bottom:5em;}
+.about-section h2{color:#000;}
+.contact-section h2,
+.portfolio-section h2,
+.about-section h2{
+	margin-top:0;
+	font-weight:900;
+	text-transform:uppercase;
+	font-size:40px;
+}
+.port-items a.btn{color:#fff;}
+.port-items a{color:#51ae5e;}
+.port-items{margin-bottom:2em;}
+.projects-image:before,
+.portfolio-img:before{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:url(/wp-content/themes/webjabs/images/dot-bg.png) repeat;
+	opacity:0.1;
+}
+.portfolio-img{
+	position:relative;
+	min-height:168px;
+	background:url(images/default-post-image.jpg) center top no-repeat;
+	background-size:cover;
+	border-bottom:5px solid #65d275;
+}
+.contact-section textarea,
+.contact-section input{
+	font-size:24px;
+	text-transform:uppercase;
+}
+.contact-section input[type="submit"]{
+	display:block;
+	padding:0.5em;
+	font-size:24px;
+	width:100%;
+}
+.contact-section h2{color:#000;}
+.contact-section .wpcf7{
+	max-width:700px;
+	margin:0 auto;
+}
+.footer-section span{
+	color:#000;
+	font-size:24px;
+	letter-spacing:1px;
+}
+.footer-section h3{
+	text-transform:uppercase;
+	margin:0;
+	color:#000;
+	font-size:50px;
+	font-weight:900;
+}
+.footer-section{
+	background-color:#51ae5e;
+	padding:70px 0;
+}
+.wpcf7-form-control-wrap > div > div > div{margin:0 auto 0.5em;}
+a.mail-to{color:#51ae5e;font-size:24px;}
+.content-area{min-height:500px;padding-bottom:3em;}
+.view-more{margin-top:3em;}
+#about p{font-size:24px;max-width:700px;margin:3em auto 0;}
+.back-to-top{
+	position: fixed;
+    bottom: 5%;
+    font-size: 18px;
+    right: 5%;
+    border-radius: 100%;
+    background-color: #51ae5e;
+    color: #fff;
+    padding: 10px 13px;
+    opacity: 0.8;
+    z-index: 3;
+}
+.back-to-top:hover{opacity:1;}
+div.wpcf7-form-control-wrap > div{display:inline-block;}
+div.wpcf7-form-control-wrap{text-align:center}
+.entry-content{margin-top:1em;}
+.projects-image{
+	position:relative;
+	background-size:cover!important;
+	min-height: 200px;
+    width: 100%;
+}
+.projects-item h1{font-size:25px;}
+.projects-item .btn{margin-top:1em;}
+.projects-item:last-child{border-bottom:0;}
+.projects-item{border-bottom:1px solid #ccc;padding-bottom:1em;margin-bottom:1em;}
+@media(max-width:480px){
+	.footer-section h3,
+	.site-details-section-content h2{font-size:40px;}
+	.site-details-section-content h3 span,
+	.site-details-section-content h3{font-size:50px;}
+	.site-details-section{background-size:inherit!important;}
+}
