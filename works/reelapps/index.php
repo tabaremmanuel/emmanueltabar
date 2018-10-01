@@ -7,8 +7,8 @@
     <title>ReelApps</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link href="<?php echo $_SERVER['REQUEST_URI'];  ?>/css/flexslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo $_SERVER['REQUEST_URI'];  ?>/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
@@ -24,7 +24,7 @@
             <h3 data-aos="fade-down">Making video marketing easier</h3>
           </div>
           <div class="col-lg-8">
-            <img data-aos="fade-up" class="img-fluid" src="images/laptop.png"  />
+            <img data-aos="fade-up" class="img-fluid" src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/laptop.png"  />
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="box-about" data-aos="fade-down">
-                <img src="images/ab1.jpg" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/ab1.jpg" />
                 <h4>Easy to use</h4>
                 <p>
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma
@@ -89,7 +89,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-about" data-aos="fade-down">
-                <img src="images/ab2.jpg" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/ab2.jpg" />
                 <h4>Library access</h4>
                 <p>
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma
@@ -98,7 +98,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-about" data-aos="fade-down">
-                <img src="images/ab3.jpg" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/ab3.jpg" />
                 <h4>Built for marketing</h4>
                 <p>
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma
@@ -116,7 +116,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-app" data-aos="zoom-in">
-                <img src="images/app-image.png" class="img-fluid" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/app-image.png" class="img-fluid" />
                 <h4><span>Video</span>Reel</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma</p>
                 <a href="#" class="btn btn-ra">Learn more</a>
@@ -124,7 +124,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-app" data-aos="zoom-in">
-                <img src="images/app-image.png" class="img-fluid" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/app-image.png" class="img-fluid" />
                 <h4><span>Visual</span>Reel</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma</p>
                 <a href="#" class="btn btn-ra">Learn more</a>
@@ -132,7 +132,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-app" data-aos="zoom-in">
-                <img src="images/app-image.png" class="img-fluid" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/app-image.png" class="img-fluid" />
                 <h4><span>Live</span>Reel</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma</p>
                 <a href="#" class="btn btn-ra">Learn more</a>
@@ -140,7 +140,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-app" data-aos="zoom-in">
-                <img src="images/app-image.png" class="img-fluid" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/app-image.png" class="img-fluid" />
                 <h4><span>Clips</span>Reel</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma</p>
                 <a href="#" class="btn btn-ra">Learn more</a>
@@ -148,7 +148,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-app" data-aos="zoom-in">
-                <img src="images/app-image.png" class="img-fluid" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/app-image.png" class="img-fluid" />
                 <h4><span>Script</span>Reel</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma</p>
                 <a href="#" class="btn btn-ra">Learn more</a>
@@ -156,7 +156,7 @@
             </div>
             <div class="col-lg-4">
               <div class="box-app" data-aos="zoom-in">
-                <img src="images/app-image.png" class="img-fluid" />
+                <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/app-image.png" class="img-fluid" />
                 <h4><span>Pixi</span>Reel</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma</p>
                 <a href="#" class="btn btn-ra">Learn more</a>
@@ -175,7 +175,7 @@
                   <ul class="slides">
                     <li>
                       <div class="ra-people">
-                          <img src="images/person-1.png" class="img-fluid" />
+                          <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/person-1.png" class="img-fluid" />
                           <h3>
                             <span>Ginni Rometty</span> CEO, IBM
                           </h3>
@@ -184,7 +184,7 @@
                     </li>
                     <li>
                       <div class="ra-people">
-                          <img src="images/person-1.png" class="img-fluid" />
+                          <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/person-1.png" class="img-fluid" />
                           <h3>
                             <span>Ginni Rometty</span> CEO, IBM
                           </h3>
@@ -193,7 +193,7 @@
                     </li>
                     <li>
                       <div class="ra-people">
-                          <img src="images/person-1.png" class="img-fluid" />
+                          <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/person-1.png" class="img-fluid" />
                           <h3>
                             <span>Ginni Rometty</span> CEO, IBM
                           </h3>
@@ -202,7 +202,7 @@
                     </li>
                     <li>
                       <div class="ra-people">
-                          <img src="images/person-1.png" class="img-fluid" />
+                          <img src="<?php echo $_SERVER['REQUEST_URI'];  ?>/images/person-1.png" class="img-fluid" />
                           <h3>
                             <span>Ginni Rometty</span> CEO, IBM
                           </h3>
@@ -248,7 +248,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];  ?>/js/jquery.flexslider-min.js"></script>
     <script>
       AOS.init();
 
