@@ -15,7 +15,7 @@
     <link rel="icon"  type="image/png" href="img/favicon.png">
   </head>
   <body>
-  	<?php require_once('/home/u752656532/public_html/works/inc/header.php'); ?>
+  	<?php require_once('../inc/header.php'); ?>
     <div class="container main-header">
       <div class="row">
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">

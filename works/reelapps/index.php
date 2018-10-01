@@ -12,7 +12,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-	<?php require_once('/home/u752656532/public_html/works/inc/header.php'); ?>
+  <?php require_once('../inc/header.php'); ?>
     <div class="container-1">
       <div class="container">
         <div class="row">
@@ -212,13 +212,35 @@
                   </ul>
                 </div>
                 <div class="text-center cta-con">
-                  <a href="#" data-aos="zoom-in" class="btn btn-cta">Call to action</a>
+                  <a href="#" class="btn btn-cta">Call to action</a>
                 </div>
               </div>
               <div class="col-lg-2">
               </div>
             </div>
           </div>
+      </div>
+    </div>
+    <div class="container-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="request-a-demo" data-aos="zoom-in">
+              <h3>Request a demo</h3>
+              <form>
+                <input type="text" placeholder="Full Name" />
+                <input type="email" placeholder="Email" />
+                <select>
+                  <option>App</option>
+                  <option>Demo</option>
+                </select>
+                <input class="btn btn-cta aos-init aos-animate" type="submit" value="Request Demo" />
+              </form>
+              <span>or just call<span>
+                <a href="tel:+111 1111 1111">+111 1111 1111</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
